@@ -1,5 +1,4 @@
 const users = require('../models/User');
-const { generateToken } = require('./utils');
 
 exports.register = (req, res) => {
     const { username, password } = req.body;
